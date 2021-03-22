@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Reservia</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1aa12b5d05.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+    	<header id="header">
+            <img src="images/reservia.png" alt="Logo Reservia" class="logo" />
+    		<nav>
+                <ul class="onglet">
+                    <li><a class="ancre" href="#hébergements">Hébergements</a></li>
+    				<li><a class="ancre" href="#conteneur-activites">Activités</a></li>
+                    <li><a class="ancre" id="sinscrire" href="https://www.reservia/sinscrire.com">S'inscrire</a></li>
+    			</ul>
+    		</nav>
+    	</header>
+
+    	<section id="conteneur-section-filtres">
+            <h1 >Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p >En plein centre ville ou en plaine nature</p><br />
+            <div id="conteneur-recherche">
+                <div id="logomap">
+                    <i class="fas fa-map-marker-alt" id="logosize"></i>
+                </div>
+                <input type="search" value="Marseille, France" placeholder="Ville, Pays" />
+                <button id="button-desktop">Rechercher</button>
+                <button id="button-mobile"><i class="fas fa-search"></i></button>
+            </div>
+
+            <div id="conteneur-filtres">
+                <p class="filtres">Filtres</p>
+                <ul class="filtres">
+                    <li  class="element-filtres"><i class="fas fa-money-bill-wave items-filtres"></i><p class="element-filtres-p">Economique</p></li>
+                    <li  class="element-filtres"><i class="fas fa-child items-filtres-familial"></i><p class="element-filtres-p">Familial</p></li>
+                    <li  class="element-filtres"><i class="fas fa-heart items-filtres"></i><p class="element-filtres-p">Romantique</p></li>
+                    <li class="element-filtres"><i class="fas fa-dog items-filtres"></i><p class="element-filtres-p">Animaux autorisés</p></li>
+                </ul>
+            </div>
+            <div class="conteneur-info-filtres">
+                <i class="fas fa-info" id="items-info"></i>
+                <p id="element-info">Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+        </section>
+
+        <section id="conteneur-hebergement-populaire">
+            <article id="conteneur-hebergement">
+                <h2 id="hébergements">Hébergements à Marseille</h2>
+                <div id="figure-position-hebergement">
+                    <a href="https://www.reservia/auberge_la_cannebiere.com" target="_blank" class="link-hebergement">
+                        <figure class="figure-hebergement">
+                            <img src="images/auberge_la_cannebiere.jpg" alt="Auberge la Cannebière">
+                            <figcaption class="figcaption-hebergement">
+                                <p class="text-hebergement">Auberge la Cannebière</p>
+                                <p class="figcaption">Nuit à partir de <span>25€</span></p>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star-creux"></i>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                    <a href="https://www.reservia/hotel_du_port.com" target="_blank" class="link-hebergement">
+                        <figure class="figure-hebergement">
+                            <img src="images/hotel_du_port.jpg" alt="Hôtel du port">
+                            <figcaption class="figcaption-hebergement">
+                                <p class="text-hebergement">Hôtel du port</p>
+                                <p class="figcaption">Nuit à partir de 52<span>€</span></p>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                            </figcaption>
+                        </figure>
+                    </a>    
+
+                    <a href="https://www.reservia/hotel_les_mouettes.com" target="_blank" class="link-hebergement">
+                        <figure class="figure-hebergement">
+                            <img src="images/hotel_les_mouettes.jpg" alt="Hôtel Les mouettes">
+                            <figcaption class="figcaption-hebergement">
+                                <p class="text-hebergement">Hôtel Les mouettes</p>                
+                                <p class="figcaption">Nuit à partir de 76<span>€</span></p>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star-creux"></i>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                    <a href="https://www.reservia/hotel_de_la_mer.com" target="_blank" class="link-hebergement">
+                        <figure class="figure-hebergement">
+                            <img src="images/hotel_de_la_mer.jpg" alt="Hôtel de la mer">
+                            <figcaption class="figcaption-hebergement">
+                                <p class="text-hebergement">Hôtel de la mer</p>
+                                <p class="figcaption">Nuit à partir de 46<span>€</span></p>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star-creux"></i>
+                                <i class="fas fa-star item-star-creux"></i>
+                            </figcaption>
+                        </figure>      
+                    </a>
+
+
+                    <a href="https://www.reservia/auberge_le_panier.com" target="_blank" class="link-hebergement">
+                        <figure class="figure-hebergement">
+                            <img src="images/auberge_le_panier.jpg" alt="Auberge Le Panier">
+                            <figcaption class="figcaption-hebergement">
+                                <p class="text-hebergement">Auberge Le Panier</p>
+                                <p class="figcaption">Nuit à partir de <span>23€</span></p>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star-creux"></i>
+                            </figcaption>
+                        </figure>                     
+                    </a>
+
+                    <a href="https://www.reservia/hotel_chez_amina.com" target="_blank" class="link-hebergement">
+                        <figure class="figure-hebergement">
+                            <img src="images/hotel_chez_amina.jpg" alt="Hôtel chez Amina">
+                            <figcaption class="figcaption-hebergement">
+                                <p class="text-hebergement">Hôtel chez Amina</p>
+                                <p class="figcaption">Nuit à partir de 96<span>€</span></p>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                            </figcaption>
+                        </figure>                  
+                    </a> 
+                    <a href="https://www.reservia/hebergements/marseille.com" id="link-plus">Afficher plus</a>  
+                </div>                              
+            </article>
+
+            <article id="conteneur-populaire">
+                <div id="conteneur-titre-populaire">
+                    <h2>Les plus populaires</h2>
+                    <i class="fas fa-chart-line " id="item-populaire"></i>
+                </div>
+
+                <div id="conteneur-populaire-position">
+                    <a href="https://www.reservia/hotel_le_soleil_du_matin.com" target="_blank" class="link-populaire">
+                        <figure class="figure-populaire">
+                            <img src="images/hotel_le_soleil_du_matin.jpg" alt="Hôtel Le soleil du matin">
+                            <figcaption class="figcaption-populaire">
+                                <p class="text-populaire">Hôtel Le soleil du matin</p>
+                                <p class="figcaption">Nuit à partir de 128<span>€</span></p>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                    <a href="https://www.reservia/au_coeur_de_leau.com" target="_blank" class="link-populaire">
+                        <figure class="figure-populaire">
+                            <img src="images/au_coeur_de_leau.jpg" alt="Au coeur de l'eau Chambres d'hôtes">
+                            <figcaption class="figcaption-populaire">
+                                <p class="text-populaire">Au coeur de l'eau Chambres d'hôtes</p>
+                                <p class="figcaption">Nuit à partir de 71<span>€</span></p>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star-creux"></i>      
+                            </figcaption>
+                        </figure>                 
+                    </a>
+
+                    <a href="https://www.reservia/hotel_tout_bleu_et_blanc.com" target="_blank" class="link-populaire">
+                        <figure class="figure-populaire">
+                            <img src="images/hotel_tout_bleu_et_blanc.jpg" alt="Hôtel Tout bleu et Blanc">
+                            <figcaption class="figcaption-populaire">
+                                <p class="text-populaire">Hôtel Tout bleu et Blanc</p>
+                                <p class="figcaption">Nuit à partir de 68<span>€</span></p>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star"></i>
+                                <i class="fas fa-star item-star-creux"></i>   
+                            </figcaption>
+                        </figure>                   
+                    </a>
+                </div>
+            </article>
+        </section>
+
+        <section id="conteneur-section-activites">
+            <h1>Activités à Marseille</h1>
+            <div id="conteneur-activites">
+                <a href="https://www.reservia/vieux_port.com" target="_blank" class="link-activites">
+                    <figure class="figure-activites image big">
+                        <img src="images/vieux_port.jpg" alt="Vieux Port">
+                        <figcaption class="figcaption-activites">Vieux Port</figcaption>
+                    </figure>
+                </a>
+                <div class="activites-position">  
+                    <a href="https://www.reservia/fort_de_pomegues.com" target="_blank" class="link-activites">
+                        <figure class="figure-activites image medium">
+                            <img src="images/fort_de_pomegues.jpg" alt="Fort de Pomègues">
+                            <figcaption class="figcaption-activites">Fort de Pomègues</figcaption>
+                        </figure>
+                    </a>
+                    <a href="https://www.reservia/iles_du_frioul.com" target="_blank" class="link-activites">
+                        <figure class="figure-activites image small">
+                            <img src="images/iles_du_frioul.jpg" alt="Îles du Frioul">
+                            <figcaption class="figcaption-activites">Îles du Frioul</figcaption>
+                        </figure>
+                    </a>  
+                </div>
+                    <a href="https://www.reservia/parc_national_des_calanques.com" target="_blank" class="link-activites">
+                        <figure class="figure-activites image big">
+                            <img src="images/parc_national_des_calanques.jpg" alt="Parc National des Calarques">
+                            <figcaption class="figcaption-activites">Parc National des Calarques</figcaption>
+                        </figure>
+                    </a>   
+                <div class="activites-position">
+                    <a href="https://www.reservia/notre_dame_de_la_garde.com" target="_blank" class="link-activites">
+                        <figure class="figure-activites image medium">
+                            <img src="images/notre_dame_de_la_garde.jpg" alt="Notre-Dame-de-la-Garde">
+                            <figcaption class="figcaption-activites">Notre-Dame-de-la-Garde</figcaption>
+                        </figure>
+                    </a>
+                        <a href="https://www.reservia/parc_longchamp.com" target="_blank" class="link-activites">
+                        <figure class="figure-activites image medium">
+                            <img src="images/parc_longchamp.jpg" alt="Parc Longchamp">
+                            <figcaption class="figcaption-activites">Parc Longchamp</figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>                
+        </section>
+        <footer>
+            <ul>
+                <li><p><span>A propos</span></p></li>
+                <li><a href="https://www.reservia/fonctionnement_du_site.com"><p>Fonctionnement du site</p></a></li>
+                <li><a href="https://www.reservia/conditions_generakes_de_ventes.com"><p>Conditions générales de vente</p></a></li>
+                <li><a href="https://www.reservia/donnees_et_confidentialites.com"><p>Données et confidentialité</p></a></li>
+            </ul>
+            <ul>
+                <li><p><span>Nos hébergements</span></p></li>
+                <li><a href="https://www.reservia/charte_qualite.com"><p>Charte qualité</p></a></li>
+                <li><a href="https://www.reservia/soumettre_votre_hotel.com"><p>Soumettre votre hôtel</p></a></li>
+            </ul> 
+            <ul>
+                <li><p><span>Assistance</span></p></li>
+                <li><a href="https://www.reservia/centre_daide.com"><p>Centre d'aide</p></a></li>
+                <li><a href="https://www.reservia/nous_contacter.com"><p>Nous contacter</p></a></li>
+            </ul>                       
+        </footer>
+    		
+    </body>
+</html>
