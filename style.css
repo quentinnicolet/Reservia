@@ -128,10 +128,10 @@ button
 
 #conteneur-filtres
 {
-font-weight: bold;
-font-size: 17px;
-display: flex;
-align-items: baseline;
+	font-weight: bold;
+	font-size: 17px;
+	display: flex;
+	align-items: baseline;
 }
 
 .filtres
@@ -481,7 +481,7 @@ footer ul p
 	input
 	{
 		width: 12em;
-		margin-inline-end: -10px;
+		margin-right: -10px;
 	}
 
 	button
@@ -687,7 +687,7 @@ footer ul p
 	input
 	{
 		width: 12em;
-		margin-inline-end: -10px;
+		margin-right: -10px;
 	}
 
 	button
@@ -1087,7 +1087,7 @@ footer ul p
 {
 	header, section
 	{
-		margin: 0 1em 3 1em;
+		margin: 0 1em 3em 1em;
 	}
 }
 
