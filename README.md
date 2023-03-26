@@ -1,3 +1,4 @@
+# RESERVIA
 Welcome to RESERVIA, where we aim to provide you with an exceptional online hotel reservation experience. Our team has created a prototype website using HTML and CSS, implementing the latest development techniques such as Semantic HTML, CSS Flexbox, CSS Grid, and Responsive design to ensure a seamless and visually appealing user experience.
 
 With our user-friendly interface and intuitive navigation, booking your dream hotel has never been easier. Our website is designed to be accessible on any device, so you can make reservations on-the-go with ease.
